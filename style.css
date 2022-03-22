@@ -1,0 +1,127 @@
+*{
+    font-family: 'Homer Simpson Revised', sans-serif;
+}
+@import url('http://fonts.cdnfonts.com/css/homer-simpson-revised');
+
+body
+{
+    margin:0;
+    padding:0;
+    background-image: url("IMG/nuages.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.map_paris
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 900px;
+    height: 600px;
+    background-image:url(IMG/map-paris.png);
+    background-repeat:none;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10%;
+    box-shadow:  29px 29px 58px #848484,
+             -29px -29px 58px #ffffff;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+.hidden {
+    display: none;
+}
+.description {
+    background-color: #FFD90F;
+    color: white;
+    padding: 5px;
+    display: none;
+    border-radius: 10%;
+    border-color: white ;
+    border: solid;
+    
+}
+
+.description ul {
+    margin-right: 20px;
+}
+
+.arbre:hover .image-arbre {
+    transform: scale(1.1);
+}
+
+
+.arbre:hover .description {
+    display: block;
+}
+
+#arbre1 {
+    top: 150px;
+    left: 400px;
+}
+
+#arbre2 {
+    top: 400px;
+    left: 40px;
+}
+#arbre3 {
+    top: 30%;
+    left: 20%;
+}
+.image-arbre{
+    width: 50px;
+    height: 50px;
+}
+.arbre {
+    position: absolute;
+    width: auto;
+    
+    
+}
+.menu {
+    background-color: #FFD90F;
+    color: white;
+    padding: 5px;
+    display: flex;
+    border-radius: 10%;
+    border-color: white ;
+    border: solid;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 3%;
+    width: 90px;
+    height: 250px;
+}
+.menu1{
+    background-color: #FFD90F;
+    border: solid;
+    border-color: white;
+    border-radius: 10%;
+    margin-left: 30%;
+    text-align: center;
+    font-size: 20px;
+
+}
+.menu1{
+    background-color: #FFD90F;
+    border: solid;
+    border-color: white;
+    border-radius: 10%;
+    margin: 10px 6%;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+h2{
+    color: #ffffff;
+    font-size: 30px;
+    padding-left: 10px;
+    
+}
