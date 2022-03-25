@@ -62,7 +62,7 @@ body
     width: 500px;
 }
 .ccanvas{
-    margin-left: 165px;
+    margin-left: 175px;
     margin-right: auto;
     margin-top: 50px;
 }
@@ -70,14 +70,9 @@ ul {
     list-style-type : none; 
   }
   
-  h2{
-    color: #FFD90F;
-    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
-    margin-left:320px;
-    font-size: 45px;
-    padding-left: 10px;
-  }
+  
   #pieCanvas{
+      
     box-shadow:  29px 29px 58px #848484,
     -29px -29px 58px #ffffff;
     border-radius: 20px 20px 250px 250px;
@@ -103,5 +98,55 @@ ul {
     margin-top: -20%;
     border-radius: 25px 25px 25px 25px;
 }
-   
+.graph2{
+    width: 300px;
+    height: 300px;
+}
+.graph3{
+    width: 300px;
+    height: 300px;
+
+}
+.ccanvas2{
+    margin-left: 1150px;
+    margin-top: -600px;
     
+}
+#pieCanvas2{
+    box-shadow:  29px 29px 58px #848484,
+    -29px -29px 58px #ffffff;
+    border-radius: 20px 20px 150px 150px;
+    background-color: #FFD90F;
+}
+#pieCanvas3{
+    box-shadow:  29px 29px 58px #848484,
+    -29px -29px 58px #ffffff;
+    border-radius: 20px 20px 150px 150px;
+    background-color: #FFD90F;
+}
+.ccanvas3{
+    margin-top: -430px;
+    margin-left: 80px;
+}
+h3{
+    color: #FFD90F;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+  }
+  .h22{
+      margin-top: 250px;
+  }
+  h2{
+    color: #FFD90F;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+    margin-left:320px;
+    font-size: 45px;
+    padding-left: 10px;
+  }
+  .h23{
+      margin-top: 90px;
+  }
+  h3{
+      padding-left: 35px;
+      font-size: 20px;
+  }
+
