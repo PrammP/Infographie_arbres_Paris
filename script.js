@@ -1,4 +1,5 @@
 let checkboxes = document.querySelectorAll(".checkbox");
+const pieCanvas = document.getElementById("pieCanvas");
 
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener("change", ($event)=>{
@@ -31,3 +32,43 @@ function filter(value, checked) {
         }
     );
 };
+const pieChart = new Chart(pieCanvas, {
+    type: "doughnut",
+    data: {
+        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        datasets: [{
+            data:[0.6,4,5.6,89.3],
+            backgroundColor: [
+                "#2f64d6","#9c5b01","white","#ff81c1",
+            ],
+            hoverOffset: 15
+        }]
+    }
+})
+
+const pieChart2 = new Chart(pieCanvas2, {
+    type: "doughnut",
+    data: {
+        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        datasets: [{
+            data:[0.6,4,5.6,89.3],
+            backgroundColor: [
+                "#2f64d6","#9c5b01","white","#ff81c1",
+            ],
+            hoverOffset: 15
+        }]
+    }
+})
+const pieChart3 = new Chart(pieCanvas3, {
+    type: "doughnut",
+    data: {
+        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        datasets: [{
+            data:[0.6,4,5.6,89.3],
+            backgroundColor: [
+                "#2f64d6","#9c5b01","white","#ff81c1",
+            ],
+            hoverOffset: 15
+        }]
+    }
+})
