@@ -35,7 +35,7 @@ function filter(value, checked) {
 const pieChart = new Chart(pieCanvas, {
     type: "doughnut",
     data: {
-        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        labels: ["DJS","Bord de route","Cimetiere","Jardin"],
         datasets: [{
             data:[0.6,4,5.6,89.3],
             backgroundColor: [
@@ -49,11 +49,11 @@ const pieChart = new Chart(pieCanvas, {
 const pieChart2 = new Chart(pieCanvas2, {
     type: "doughnut",
     data: {
-        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        labels: ["5m,","15m","25m","35m","45m"],
         datasets: [{
-            data:[0.6,4,5.6,89.3],
+            data:[10,40,63,38,5],
             backgroundColor: [
-                "#2f64d6","#9c5b01","white","#ff81c1",
+                "red","black","white","#ff81c1","brown"
             ],
             hoverOffset: 15
         }]
@@ -62,11 +62,11 @@ const pieChart2 = new Chart(pieCanvas2, {
 const pieChart3 = new Chart(pieCanvas3, {
     type: "doughnut",
     data: {
-        labels: ["DJS","Alignement","Cimetiere","Jardin"],
+        labels: ["Mature","Adulte","Jeune"],
         datasets: [{
-            data:[0.6,4,5.6,89.3],
+            data:[121,54,2],
             backgroundColor: [
-                "#2f64d6","#9c5b01","white","#ff81c1",
+                "red","#9c5b01","white",
             ],
             hoverOffset: 15
         }]

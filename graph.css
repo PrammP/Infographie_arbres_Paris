@@ -134,15 +134,17 @@ h3{
   }
   .h22{
       margin-top: 250px;
+      margin-left: -10px;
   }
   h2{
     color: #FFD90F;
     text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
-    margin-left:320px;
+    margin-left:295px;
     font-size: 45px;
     padding-left: 10px;
   }
   .h23{
+      margin-left: -40px;
       margin-top: 90px;
   }
   h3{
